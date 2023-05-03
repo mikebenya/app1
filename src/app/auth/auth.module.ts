@@ -13,6 +13,7 @@ import { LoginComponent } from './login/login.component';
   ],
   exports: [
     LoginComponent
+    //este comentario es de prueba
   ]
 })
 export class AuthModule { }
