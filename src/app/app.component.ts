@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app1';
+  public titulo: string = "Suma y resta";
+  public contador: number = 0;
+
+  public suma() {
+    this.contador++;
+  }
+
+  public resta() {
+    this.contador--;
+  }
+
+  public reset() {
+    this.contador=0;
+  }
 }

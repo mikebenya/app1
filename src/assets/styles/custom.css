@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Soho';
+    src: url("fonts/SohoGothicPro-Regular.ttf");
+}
+@font-face {
+    font-family: 'Soho';
+    font-weight: bold;
+    src: url("fonts/SohoGothicPro-Bold.ttf");
+}
+/* @font-face {
+    font-family: 'Soho';
+    font-weight: bold;
+    font-style: italic;
+    src: url("../../../fonts/soho/ttf/SohoGothicPro-BoldItalic.ttf");
+} */
+/* @font-face {
+    font-family: 'Soho';
+    font-style: italic;
+    src: url("../../../fonts/soho/ttf/SohoGothicPro-Italic.ttf");
+} */
+@font-face {
+    font-family: 'onesait-iconography-v3';
+    src: url("./onesaitIcons/font/onesait-iconography-v4.eot?36603981");
+    src: url("./onesaitIcons/font/onesait-iconography-v4.eot?36603981#iefix") format("embedded-opentype"), url("./onesaitIcons/font/onesait-iconography-v4.woff?36603981") format("woff"), url("./onesaitIcons/font/onesait-iconography-v4.ttf?36603981") format("truetype"), url("./onesaitIcons/font/onesait-iconography-v4.svg?36603981#onesait-iconography-v4") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.container {
+    padding: 0px;
+}
+
+
+.row {
+    margin: 0px;
+}
+
+body {
+    font-family: "Soho" !important;
+    font-size: 11px !important;
+  }
+
+.form-control {
+    padding: 0;
+    background-color: #eaf0f5;
+    border-radius: 0;
+    border-bottom: 2px solid #cadae5 !important;
+    border: 0px solid #ced4da;
+  }
+
+  .mainTitle{
+    color: #2e6c99;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+#sidebarCollapse.active img{
+transform: rotate(180deg);
+}
+
+#sidebarCollapse{
+    margin-left: 0px;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0px;
+}
+
+#sidebarCollapse:hover{
+    background-color: transparent;
+    border: transparent;
+}
+
+.accordion-button:not(.collapsed){
+    color: #2e6c99;
+}
+
+.accordion-button{
+    background-color: #f3f0f0 !important;
+    color: #2e6c99;
+    font-weight: bold;
+}
+
+.accordion-button:focus{
+    border-color: transparent;
+    box-shadow: none;
+    background-color: #f3f0f0 !important;
+    color: #2e6c99;
+    font-weight: bold;
+}
+
+.accordion-button{
+    font-size: 12px;
+    height: 25px;
+}
+
+
+.btn-info.active:focus{
+    box-shadow: none;
+}
+
+.table>:not(:first-child){
+    border-top: none;
+}
+
+.table{
+    background-color: #f9f9fb;
+}
+
+@media (max-width: 768px) {
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
